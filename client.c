@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 
 	mySocket = createSocket(NETWORK_SOCKET, STREAM, argv[1], port);
 	
-	if (socket < 0)
+	if (mySocket < 0)
 	{
 		errorSocket(mySocket);
 		exit(0);
